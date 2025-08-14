@@ -8,6 +8,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-      echo "Welcome to the Dashboard!";
+      return view('dashboard'); // Assuming you have a dashboard view
     }
 }
